@@ -4,6 +4,8 @@ A structural claim-to-evidence chain checker. Extracts claims from text (citatio
 
 **Status:** v0.1.1 · Confidence: high (structural checks), medium (claim detection heuristics) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 AI-generated reports state facts — "costs rose 3% [5]" — where citation [5] may not exist, or the claim carries no citation at all. Fact-checking models judge *truth*; nobody cheaply checks the *mechanics*: does every claim-bearing sentence carry evidence links, and do those links resolve to a declared evidence registry?
